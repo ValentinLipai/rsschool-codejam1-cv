@@ -11,12 +11,12 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  padding: 100px 0;
+  font-family: 'Montserrat', 'Arial', sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
   color: #242424;
   background: #008CD9 url(https://hdwallpaperup.com/wp-content/uploads/2015/09/Simple-Blue-Background-1920x1200.jpg) no-repeat center center fixed;
-  padding: 100px 0;
 }
 
 /* DEFAULTS */
@@ -42,7 +42,8 @@ section {
   text-transform: uppercase;
 }
 
-.section-heading:before, .section-heading:after {
+.section-heading:before,
+.section-heading:after {
   content: '';
   display: inline-block;
   width: 30px;
@@ -114,7 +115,6 @@ section {
 }
 
 .header-contact-list {
-  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -124,10 +124,10 @@ section {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  margin-top: 20px;
 }
 
 .header-contact-item {
-  list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -142,6 +142,7 @@ section {
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
   margin-right: 20px;
+  list-style-type: none;
 }
 
 .header-contact-icon {
@@ -186,9 +187,9 @@ section {
 }
 
 .header-social-link {
-  text-decoration: none;
   display: inline-block;
   margin-right: 10px;
+  text-decoration: none;
 }
 
 /* SKILLS */
@@ -207,15 +208,15 @@ section {
 }
 
 .skills-item {
-  cursor: default;
   display: inline-block;
-  list-style-type: none;
   padding: 5px 10px;
   margin: 0 5px 10px;
-  background-color: #0072b0;
   border-radius: 4px;
   color: #ffffff;
   line-height: 1;
+  list-style-type: none;
+  cursor: default;
+  background-color: #0072b0;
 }
 
 /* PROJECTS */
@@ -236,10 +237,10 @@ section {
 
 .projects-item {
   position: relative;
-  overflow: hidden;
   -ms-flex-preferred-size: 49%;
       flex-basis: 49%;
   margin-bottom: 20px;
+  overflow: hidden;
 }
 
 .projects-item-img {
@@ -252,8 +253,6 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -267,6 +266,8 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
+  height: 100%;
   text-align: center;
   opacity: 0;
   -webkit-transition: opacity 0.25s;
@@ -286,11 +287,11 @@ section {
 .projects-item-heading {
   position: relative;
   top: -200px;
+  margin-bottom: 20px;
   font-size: 2rem;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 400;
-  margin-bottom: 20px;
   -webkit-transition: top 0.25s;
   transition: top 0.25s;
 }
@@ -368,7 +369,9 @@ section {
         -ms-flex-align: start;
             align-items: flex-start;
   }
-  .experience-item-time, .education-item-time, .languages-item-time {
+  .experience-item-time,
+  .education-item-time,
+  .languages-item-time {
     -ms-flex-preferred-size: 27%;
         flex-basis: 27%;
   }
@@ -398,19 +401,25 @@ section {
     padding: 20px 10px;
   }
   .projects-item-link {
-    background-color: #008CD9;
     color: #ffffff;
+    background-color: #008CD9;
   }
-  .experience-item, .education-item, .languages-item {
+  .experience-item,
+  .education-item,
+  .languages-item {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .experience-item-heading, .education-item-heading, .languages-item-heading {
+  .experience-item-heading,
+  .education-item-heading,
+  .languages-item-heading {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     margin-bottom: 5px;
   }
-  .experience-item-time, .education-item-time, .languages-item-time {
+  .experience-item-time,
+  .education-item-time,
+  .languages-item-time {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
