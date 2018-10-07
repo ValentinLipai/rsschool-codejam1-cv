@@ -313,3 +313,38 @@ section {
   background-color: #008CD9;
   color: #ffffff;
 }
+
+/* experience */
+.experience-item,
+.education-item,
+.languages-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #000;
+}
+
+.experience-item-heading,
+.education-item-heading,
+.languages-item-heading {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+.experience-item-time,
+.education-item-time,
+.languages-item-time {
+  font-size: 1.6rem;
+  font-weight: 400;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+}
