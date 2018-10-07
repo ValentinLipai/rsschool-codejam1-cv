@@ -348,3 +348,88 @@ section {
   -ms-flex-preferred-size: 20%;
       flex-basis: 20%;
 }
+
+@media screen and (max-width: 1000px) {
+  .header-person-photo {
+    height: auto;
+  }
+  .header-heading {
+    font-size: 5rem;
+  }
+  .header-contact-item {
+    margin-bottom: 10px;
+  }
+  .header-contact-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .experience-item-time, .education-item-time, .languages-item-time {
+    -ms-flex-preferred-size: 27%;
+        flex-basis: 27%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    padding: 50px 0;
+  }
+  .header-person-info-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header-person-photo-wrapper {
+    padding-right: 0;
+  }
+  .projects-item {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .projects-item-img {
+    height: auto;
+  }
+  .projects-item-overlay {
+    padding: 20px 10px;
+  }
+  .projects-item-link {
+    background-color: #008CD9;
+    color: #ffffff;
+  }
+  .experience-item, .education-item, .languages-item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .experience-item-heading, .education-item-heading, .languages-item-heading {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-bottom: 5px;
+  }
+  .experience-item-time, .education-item-time, .languages-item-time {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  html {
+    font-size: 8px;
+  }
+  .header {
+    padding: 40px 20px;
+  }
+  section {
+    padding: 0 20px 40px;
+  }
+  .header-heading {
+    font-size: 3.6rem;
+  }
+  .header-subheading {
+    font-size: 2rem;
+  }
+}
