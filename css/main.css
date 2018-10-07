@@ -19,7 +19,7 @@ body {
   background: #008CD9 url(https://hdwallpaperup.com/wp-content/uploads/2015/09/Simple-Blue-Background-1920x1200.jpg) no-repeat center center fixed;
 }
 
-/* DEFAULTS */
+
 section {
   padding: 0 40px 50px;
 }
@@ -63,7 +63,6 @@ section {
   background-color: #ffffff;
 }
 
-/* HEADER */
 .header {
   padding-bottom: 20px;
   padding: 40px;
@@ -192,7 +191,6 @@ section {
   text-decoration: none;
 }
 
-/* SKILLS */
 .skills-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -219,7 +217,6 @@ section {
   background-color: #0072b0;
 }
 
-/* PROJECTS */
 .projects-list {
   position: relative;
   display: -webkit-box;
@@ -315,7 +312,6 @@ section {
   color: #ffffff;
 }
 
-/* experience */
 .experience-item,
 .education-item,
 .languages-item {
