@@ -190,3 +190,30 @@ section {
   display: inline-block;
   margin-right: 10px;
 }
+
+/* SKILLS */
+.skills-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.skills-item {
+  cursor: default;
+  display: inline-block;
+  list-style-type: none;
+  padding: 5px 10px;
+  margin: 0 5px 10px;
+  background-color: #0072b0;
+  border-radius: 4px;
+  color: #ffffff;
+  line-height: 1;
+}
