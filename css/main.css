@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #242424;
+  background: #008CD9 url(https://hdwallpaperup.com/wp-content/uploads/2015/09/Simple-Blue-Background-1920x1200.jpg) no-repeat center center fixed;
+  padding: 100px 0;
+}
+
+/* DEFAULTS */
+section {
+  padding: 0 40px 50px;
+}
+
+.section-heading {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-heading:before, .section-heading:after {
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 4px;
+  margin: 0 20px;
+  background-color: #008CD9;
+}
+
+.page-wrapper {
+  width: 1024px;
+  max-width: 98%;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+}
+
+/* HEADER */
+.header {
+  padding-bottom: 20px;
+  padding: 40px;
+  margin-bottom: 40px;
+  background-color: #eeeeee;
+}
+
+.header-person-photo {
+  display: inline-block;
+  max-width: 100%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.header-person-photo-wrapper {
+  padding-right: 50px;
+  -ms-flex-preferred-size: 33%;
+      flex-basis: 33%;
+}
+
+.header-person-info {
+  -ms-flex-preferred-size: 66.6667%;
+      flex-basis: 66.6667%;
+}
+
+.header-person-info-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-heading {
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.header-subheading {
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.header-contact-list {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.header-contact-item {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-right: 20px;
+}
+
+.header-contact-icon {
+  width: 25px;
+  max-height: 30px;
+  margin-right: 10px;
+}
+
+.header-contact-link {
+  color: #242424;
+  font-weight: 500;
+}
+
+.header-contact-link:hover {
+  color: #008CD9;
+}
+
+.header-contact-link:hover + .header-contact-icon {
+  fill: #008CD9;
+}
+
+.header-social-links-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.header-social-links-item {
+  list-style-type: none;
+}
+
+.header-social-links-item svg {
+  width: 30px;
+  height: 30px;
+}
+
+.header-social-link {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+}
